@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background-color: #050505;
+  color: white;
+  font-family: 'Inter', monospace;
+  overflow-x: hidden;
+}
+
+/* Özel Arena Kaydırma Çubuğu */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: #FDB912;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A90432;
+}
